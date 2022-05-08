@@ -1,0 +1,70 @@
+#app {
+  font-family: "Radio Canada", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  position: absolute;
+  width: 70%;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 100;
+}
+
+.container p {
+  margin-bottom: 32px;
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.container button {
+  padding: 12px 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: none;
+  font-family: "Radio Canada", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.container button:hover {
+  padding: 12px 40px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  color: white;
+  animation: blinker 3s linear infinite;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
